@@ -4,5 +4,5 @@ pandas
 pydeck
 streamlit
 langchain
-langchain_opnai
+langchain_openai
 duckduckgo_search
