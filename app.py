@@ -1,7 +1,7 @@
 from langchain.agents import ConversationalChatAgent, AgentExecutor, create_react_agent
 from langchain.agents import load_tools
 from langchain_openai.chat_models import ChatOpenAI
-from langchain_openai.llms import OpenAI
+from langchain_openai.llms import ChatAnthropic
 from langchain.memory import ConversationBufferWindowMemory
 import streamlit as st
 
@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["openai"]
 
 # creating tools for sales agent
 
-llm = ChatOpenAI(openai_api_key=st.secrets["openai"])
+llm = ChatAntropic(api-key=st.secrets["openai"])
 agent_prompt = """
 You are an honest and helpful AI job assistant for a Job Portal RevHire. Help users find jobs and employers hire top talent. 
 RevHire is a job portal for recruiting. Below are the capabilities of RevHire.
