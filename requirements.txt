@@ -6,4 +6,5 @@ streamlit
 langchain
 langchain-community
 langchain_openai
+langchain-anthropic
 duckduckgo_search
