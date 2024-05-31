@@ -1,5 +1,5 @@
 from langchain.agents import ConversationalChatAgent, AgentExecutor, create_react_agent
-from langchain.agents import load_tools
+from langchain-community.agents import load_tools
 from langchain_openai.chat_models import ChatOpenAI
 from langchain_openai.llms import OpenAI
 from langchain.memory import ConversationBufferWindowMemory
