@@ -3,6 +3,7 @@ numpy
 pandas
 pydeck
 streamlit
-langchain[all]
+langchain
+langchain-community
 langchain_openai
 duckduckgo_search
