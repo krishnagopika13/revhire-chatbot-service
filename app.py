@@ -1,14 +1,12 @@
 from langchain.agents import ConversationalChatAgent, AgentExecutor, create_react_agent
 from langchain.agents import load_tools
-from langchain_openai.chat_models import ChatOpenAI
 from langchain_openai.llms import ChatAnthropic
 from langchain.memory import ConversationBufferWindowMemory
 import streamlit as st
 
 import os
 
-os.environ["OPENAI_API_KEY"] = st.secrets["openai"]
-
+os.environ["ANTHROPIC_API_KEY"] = st.secrets["openai"]
 # creating tools for sales agent
 
 llm = ChatAntropic(api-key=st.secrets["openai"])
